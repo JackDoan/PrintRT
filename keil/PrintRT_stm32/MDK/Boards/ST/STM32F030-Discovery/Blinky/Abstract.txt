@@ -1,0 +1,21 @@
+The 'Blinky' project is a simple demo program for
+ST STM32F030R8 microcontroller using ST 'STM32F030-Discovery' Evaluation Board.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
+
+Example functionality:
+ - Clock Settings:
+   - HSI RC =  8 MHz
+   - SYSCLK = 48 MHz
+
+ - 2 LEDs blink.
+ - blinking is paused while holding down the USER button.
+
+
+The Blinky program is available in different targets:
+ - Debug:
+   - Compiler optimization Level 1
+   - Enabled Event Recorder
+   - Keil RTX5 variant 'Source'
+ - Release:
+   - Compiler optimization Level 3
+   - Keil RTX5 variant 'Library'
