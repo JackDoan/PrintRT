@@ -1,0 +1,3270 @@
+Loading plugins phase: Elapsed time ==> 0s.200ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -d CY8C4247AZI-M485 -s C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.546ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.061ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  10dollarboard.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -dcpsoc3 10dollarboard.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  10dollarboard.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -dcpsoc3 10dollarboard.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  10dollarboard.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -dcpsoc3 -verilog 10dollarboard.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Thu Jun 28 15:19:07 2018
+
+
+======================================================================
+Compiling:  10dollarboard.v
+Program  :   vpp
+Options  :    -yv2 -q10 10dollarboard.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Thu Jun 28 15:19:07 2018
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\GlitchFilter_v2_0\GlitchFilter_v2_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file '10dollarboard.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  10dollarboard.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -dcpsoc3 -verilog 10dollarboard.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Thu Jun 28 15:19:07 2018
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\codegentemp\10dollarboard.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\GlitchFilter_v2_0\GlitchFilter_v2_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\codegentemp\10dollarboard.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  10dollarboard.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -dcpsoc3 -verilog 10dollarboard.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Thu Jun 28 15:19:08 2018
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\codegentemp\10dollarboard.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\GlitchFilter_v2_0\GlitchFilter_v2_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\codegentemp\10dollarboard.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	\ADC_SAR_Seq_1:Net_3125\
+	\ADC_SAR_Seq_1:Net_3126\
+	Net_1125
+	Net_1126
+	Net_1128
+	Net_1129
+	Net_1130
+	Net_1131
+	\DriverSPI:Net_1257\
+	\DriverSPI:uncfg_rx_irq\
+	\DriverSPI:Net_1099\
+	\DriverSPI:Net_1258\
+	Net_496
+	Net_718
+	Net_719
+	Net_720
+	Net_721
+	Net_722
+	Net_723
+	Net_511
+	Net_513
+	Net_516
+	\EndStopStatus:status_7\
+
+
+Deleted 23 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing tmpOE__EndStops_1_net_4 to tmpOE__EndStops_1_net_5
+Aliasing tmpOE__EndStops_1_net_3 to tmpOE__EndStops_1_net_5
+Aliasing tmpOE__EndStops_1_net_2 to tmpOE__EndStops_1_net_5
+Aliasing tmpOE__EndStops_1_net_1 to tmpOE__EndStops_1_net_5
+Aliasing tmpOE__EndStops_1_net_0 to tmpOE__EndStops_1_net_5
+Aliasing one to tmpOE__EndStops_1_net_5
+Aliasing \ADC_SAR_Seq_1:Net_3107\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3106\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3105\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3104\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3103\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3207_1\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3207_0\ to zero
+Aliasing \ADC_SAR_Seq_1:Net_3235\ to zero
+Aliasing \EndStopCtrl:clk\ to zero
+Aliasing \EndStopCtrl:rst\ to zero
+Aliasing tmpOE__Thermistors_net_1 to tmpOE__EndStops_1_net_5
+Aliasing tmpOE__Thermistors_net_0 to tmpOE__EndStops_1_net_5
+Aliasing tmpOE__TrianmicEnable_net_0 to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:select_s_wire\ to zero
+Aliasing \DriverSPI:rx_wire\ to zero
+Aliasing \DriverSPI:sclk_s_wire\ to zero
+Aliasing \DriverSPI:mosi_s_wire\ to zero
+Aliasing \DriverSPI:tmpOE__ss3_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:tmpOE__ss2_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:tmpOE__ss1_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:tmpOE__sclk_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:tmpOE__miso_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:tmpOE__mosi_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:tmpOE__ss0_m_net_0\ to tmpOE__EndStops_1_net_5
+Aliasing \DriverSPI:cts_wire\ to zero
+Aliasing \EndStopStatus:status_6\ to zero
+Removing Lhs of wire tmpOE__EndStops_1_net_4[2] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire tmpOE__EndStops_1_net_3[3] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire tmpOE__EndStops_1_net_2[4] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire tmpOE__EndStops_1_net_1[5] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire tmpOE__EndStops_1_net_0[6] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire one[21] = tmpOE__EndStops_1_net_5[1]
+Removing Rhs of wire Net_735[31] = \EndStopCtrl:control_out_0\[295]
+Removing Rhs of wire Net_735[31] = \EndStopCtrl:control_0\[317]
+Removing Rhs of wire Net_803_0[33] = \EndStopGlitchFilter:genblk1[0]:last_state\[32]
+Removing Rhs of wire Net_803_1[40] = \EndStopGlitchFilter:genblk1[1]:last_state\[39]
+Removing Rhs of wire Net_803_2[47] = \EndStopGlitchFilter:genblk1[2]:last_state\[46]
+Removing Rhs of wire Net_803_3[54] = \EndStopGlitchFilter:genblk1[3]:last_state\[53]
+Removing Rhs of wire Net_803_4[61] = \EndStopGlitchFilter:genblk1[4]:last_state\[60]
+Removing Rhs of wire Net_803_5[68] = \EndStopGlitchFilter:genblk1[5]:last_state\[67]
+Removing Rhs of wire Net_1124[71] = \EndStopCtrl:control_out_1\[296]
+Removing Rhs of wire Net_1124[71] = \EndStopCtrl:control_1\[316]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3107\[151] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3106\[152] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3105\[153] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3104\[154] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3103\[155] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_17\[204] = \ADC_SAR_Seq_1:Net_1845\[75]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3207_1\[226] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3207_0\[227] = zero[7]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3235\[228] = zero[7]
+Removing Lhs of wire \EndStopCtrl:clk\[293] = zero[7]
+Removing Lhs of wire \EndStopCtrl:rst\[294] = zero[7]
+Removing Lhs of wire tmpOE__Thermistors_net_1[319] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire tmpOE__Thermistors_net_0[320] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire tmpOE__TrianmicEnable_net_0[330] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:select_s_wire\[337] = zero[7]
+Removing Lhs of wire \DriverSPI:rx_wire\[338] = zero[7]
+Removing Lhs of wire \DriverSPI:Net_1170\[341] = \DriverSPI:Net_847\[336]
+Removing Lhs of wire \DriverSPI:sclk_s_wire\[342] = zero[7]
+Removing Lhs of wire \DriverSPI:mosi_s_wire\[343] = zero[7]
+Removing Rhs of wire \DriverSPI:miso_m_wire\[344] = \DriverSPI:Net_467\[345]
+Removing Lhs of wire \DriverSPI:tmpOE__ss3_m_net_0\[349] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:tmpOE__ss2_m_net_0\[356] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:tmpOE__ss1_m_net_0\[363] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:tmpOE__sclk_m_net_0\[370] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:tmpOE__miso_m_net_0\[377] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:tmpOE__mosi_m_net_0\[382] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:tmpOE__ss0_m_net_0\[389] = tmpOE__EndStops_1_net_5[1]
+Removing Lhs of wire \DriverSPI:cts_wire\[395] = zero[7]
+Removing Lhs of wire \EndStopStatus:status_6\[425] = zero[7]
+Removing Lhs of wire \EndStopStatus:status_5\[426] = Net_1071_5[416]
+Removing Lhs of wire \EndStopStatus:status_4\[427] = Net_1071_4[417]
+Removing Lhs of wire \EndStopStatus:status_3\[428] = Net_1071_3[418]
+Removing Lhs of wire \EndStopStatus:status_2\[429] = Net_1071_2[419]
+Removing Lhs of wire \EndStopStatus:status_1\[430] = Net_1071_1[420]
+Removing Lhs of wire \EndStopStatus:status_0\[431] = Net_1071_0[421]
+
+------------------------------------------------------
+Aliased 0 equations, 51 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[0]:or_term\' (cost = 4):
+\EndStopGlitchFilter:genblk1[0]:or_term\ <= (\EndStopGlitchFilter:genblk1[0]:samples_0\
+	OR \EndStopGlitchFilter:genblk1[0]:samples_1\
+	OR \EndStopGlitchFilter:genblk1[0]:samples_2\
+	OR Net_805_0);
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[0]:and_term\' (cost = 1):
+\EndStopGlitchFilter:genblk1[0]:and_term\ <= ((Net_805_0 and \EndStopGlitchFilter:genblk1[0]:samples_2\ and \EndStopGlitchFilter:genblk1[0]:samples_1\ and \EndStopGlitchFilter:genblk1[0]:samples_0\));
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[1]:or_term\' (cost = 4):
+\EndStopGlitchFilter:genblk1[1]:or_term\ <= (\EndStopGlitchFilter:genblk1[1]:samples_0\
+	OR \EndStopGlitchFilter:genblk1[1]:samples_1\
+	OR \EndStopGlitchFilter:genblk1[1]:samples_2\
+	OR Net_805_1);
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[1]:and_term\' (cost = 1):
+\EndStopGlitchFilter:genblk1[1]:and_term\ <= ((Net_805_1 and \EndStopGlitchFilter:genblk1[1]:samples_2\ and \EndStopGlitchFilter:genblk1[1]:samples_1\ and \EndStopGlitchFilter:genblk1[1]:samples_0\));
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[2]:or_term\' (cost = 4):
+\EndStopGlitchFilter:genblk1[2]:or_term\ <= (\EndStopGlitchFilter:genblk1[2]:samples_0\
+	OR \EndStopGlitchFilter:genblk1[2]:samples_1\
+	OR \EndStopGlitchFilter:genblk1[2]:samples_2\
+	OR Net_805_2);
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[2]:and_term\' (cost = 1):
+\EndStopGlitchFilter:genblk1[2]:and_term\ <= ((Net_805_2 and \EndStopGlitchFilter:genblk1[2]:samples_2\ and \EndStopGlitchFilter:genblk1[2]:samples_1\ and \EndStopGlitchFilter:genblk1[2]:samples_0\));
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[3]:or_term\' (cost = 4):
+\EndStopGlitchFilter:genblk1[3]:or_term\ <= (\EndStopGlitchFilter:genblk1[3]:samples_0\
+	OR \EndStopGlitchFilter:genblk1[3]:samples_1\
+	OR \EndStopGlitchFilter:genblk1[3]:samples_2\
+	OR Net_805_3);
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[3]:and_term\' (cost = 1):
+\EndStopGlitchFilter:genblk1[3]:and_term\ <= ((Net_805_3 and \EndStopGlitchFilter:genblk1[3]:samples_2\ and \EndStopGlitchFilter:genblk1[3]:samples_1\ and \EndStopGlitchFilter:genblk1[3]:samples_0\));
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[4]:or_term\' (cost = 4):
+\EndStopGlitchFilter:genblk1[4]:or_term\ <= (\EndStopGlitchFilter:genblk1[4]:samples_0\
+	OR \EndStopGlitchFilter:genblk1[4]:samples_1\
+	OR \EndStopGlitchFilter:genblk1[4]:samples_2\
+	OR Net_805_4);
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[4]:and_term\' (cost = 1):
+\EndStopGlitchFilter:genblk1[4]:and_term\ <= ((Net_805_4 and \EndStopGlitchFilter:genblk1[4]:samples_2\ and \EndStopGlitchFilter:genblk1[4]:samples_1\ and \EndStopGlitchFilter:genblk1[4]:samples_0\));
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[5]:or_term\' (cost = 4):
+\EndStopGlitchFilter:genblk1[5]:or_term\ <= (\EndStopGlitchFilter:genblk1[5]:samples_0\
+	OR \EndStopGlitchFilter:genblk1[5]:samples_1\
+	OR \EndStopGlitchFilter:genblk1[5]:samples_2\
+	OR Net_805_5);
+
+Note:  Expanding virtual equation for '\EndStopGlitchFilter:genblk1[5]:and_term\' (cost = 1):
+\EndStopGlitchFilter:genblk1[5]:and_term\ <= ((Net_805_5 and \EndStopGlitchFilter:genblk1[5]:samples_2\ and \EndStopGlitchFilter:genblk1[5]:samples_1\ and \EndStopGlitchFilter:genblk1[5]:samples_0\));
+
+Note:  Expanding virtual equation for 'Net_1016' (cost = 1):
+Net_1016 <= ((Net_803_0 and Net_803_1 and Net_803_2 and Net_803_3 and Net_803_4 and Net_803_5));
+
+
+Substituting virtuals - pass 2:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 13 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+
+Last attempt to remove unused logic - pass 1:
+
+
+Last attempt to remove unused logic - pass 2:
+
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -dcpsoc3 10dollarboard.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.835ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Thursday, 28 June 2018 15:19:08
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jadoan1\Desktop\10dollarboard.cyprj.Archive01\10dollarboard.cydsn\10dollarboard.cyprj -d CY8C4247AZI-M485 10dollarboard.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.011ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Fixed Function Clock 2: Automatic-assigning  clock 'DriverSPI_SCBCLK'. Signal=\DriverSPI:Net_847_ff2\
+    Fixed Function Clock 10: Automatic-assigning  clock 'ADC_SAR_Seq_1_intClock'. Signal=\ADC_SAR_Seq_1:Net_1845_ff10\
+    Digital Clock 0: Automatic-assigning  clock 'EndStopSampleFreq'. Fanout=2, Signal=Net_595_digital
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+    UDB Clk/Enable \EndStopGlitchFilter:ClkSync\: with output requested to be synchronous
+        ClockIn: ClockGenBlock:m0s8clockgenblockcell.gen_clk_out_0 was determined to be a global clock that is synchronous to HFClk
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: ClockGenBlock:m0s8clockgenblockcell.gen_clk_out_0, EnableOut: Constant 1
+</CYPRESSTAG>
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+ADD: pft.M0040: information: The following 16 pin(s) will be assigned a location by the fitter: \DriverSPI:miso_m(0)\, \DriverSPI:mosi_m(0)\, \DriverSPI:sclk_m(0)\, \DriverSPI:ss0_m(0)\, \DriverSPI:ss1_m(0)\, \DriverSPI:ss2_m(0)\, \DriverSPI:ss3_m(0)\, EndStops_1(0), EndStops_1(1), EndStops_1(2), EndStops_1(3), EndStops_1(4), EndStops_1(5), Thermistors(0), Thermistors(1), TrianmicEnable(0)
+
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = EndStops_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: True
+            Interrupt mode: ON_CHANGE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => EndStops_1(0)__PA ,
+            fb => Net_805_0 ,
+            pad => EndStops_1(0)_PAD );
+
+    Pin : Name = EndStops_1(1)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: True
+            Interrupt mode: ON_CHANGE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => EndStops_1(1)__PA ,
+            fb => Net_805_1 ,
+            pad => EndStops_1(1)_PAD );
+
+    Pin : Name = EndStops_1(2)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: True
+            Interrupt mode: ON_CHANGE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => EndStops_1(2)__PA ,
+            fb => Net_805_2 ,
+            pad => EndStops_1(2)_PAD );
+
+    Pin : Name = EndStops_1(3)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: True
+            Interrupt mode: ON_CHANGE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => EndStops_1(3)__PA ,
+            fb => Net_805_3 ,
+            pad => EndStops_1(3)_PAD );
+
+    Pin : Name = EndStops_1(4)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: True
+            Interrupt mode: ON_CHANGE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => EndStops_1(4)__PA ,
+            fb => Net_805_4 ,
+            pad => EndStops_1(4)_PAD );
+
+    Pin : Name = EndStops_1(5)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: True
+            Interrupt mode: ON_CHANGE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: False
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => EndStops_1(5)__PA ,
+            fb => Net_805_5 ,
+            pad => EndStops_1(5)_PAD );
+
+    Pin : Name = Thermistors(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: ANALOG
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Thermistors(0)__PA ,
+            analog_term => Net_711 ,
+            pad => Thermistors(0)_PAD );
+
+    Pin : Name = Thermistors(1)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: ANALOG
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Thermistors(1)__PA ,
+            analog_term => Net_709 ,
+            pad => Thermistors(1)_PAD );
+
+    Pin : Name = TrianmicEnable(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: SYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: True
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => TrianmicEnable(0)__PA ,
+            pin_input => Net_1093 ,
+            pad => TrianmicEnable(0)_PAD );
+
+    Pin : Name = \DriverSPI:ss3_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:ss3_m(0)\__PA ,
+            pin_input => \DriverSPI:select_m_wire_3\ ,
+            pad => \DriverSPI:ss3_m(0)_PAD\ );
+
+    Pin : Name = \DriverSPI:ss2_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:ss2_m(0)\__PA ,
+            pin_input => \DriverSPI:select_m_wire_2\ ,
+            pad => \DriverSPI:ss2_m(0)_PAD\ );
+
+    Pin : Name = \DriverSPI:ss1_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:ss1_m(0)\__PA ,
+            pin_input => \DriverSPI:select_m_wire_1\ ,
+            pad => \DriverSPI:ss1_m(0)_PAD\ );
+
+    Pin : Name = \DriverSPI:sclk_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:sclk_m(0)\__PA ,
+            pin_input => \DriverSPI:sclk_m_wire\ ,
+            pad => \DriverSPI:sclk_m(0)_PAD\ );
+
+    Pin : Name = \DriverSPI:miso_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:miso_m(0)\__PA ,
+            fb => \DriverSPI:miso_m_wire\ ,
+            pad => \DriverSPI:miso_m(0)_PAD\ );
+
+    Pin : Name = \DriverSPI:mosi_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:mosi_m(0)\__PA ,
+            pin_input => \DriverSPI:mosi_m_wire\ ,
+            pad => \DriverSPI:mosi_m(0)_PAD\ );
+
+    Pin : Name = \DriverSPI:ss0_m(0)\
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => \DriverSPI:ss0_m(0)\__PA ,
+            pin_input => \DriverSPI:select_m_wire_0\ ,
+            pad => \DriverSPI:ss0_m(0)_PAD\ );
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_1093, Mode=(Combinatorial)
+        Total # of inputs        : 7
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_803_0 * Net_803_1 * Net_803_2 * Net_803_3 * Net_803_4 * 
+              Net_803_5
+            + Net_1124
+        );
+        Output = Net_1093 (fanout=1)
+
+    MacroCell: Name=Net_1071_5, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_5
+        );
+        Output = Net_1071_5 (fanout=1)
+
+    MacroCell: Name=Net_1071_4, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_4
+        );
+        Output = Net_1071_4 (fanout=1)
+
+    MacroCell: Name=Net_1071_3, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_3
+        );
+        Output = Net_1071_3 (fanout=1)
+
+    MacroCell: Name=Net_1071_2, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_2
+        );
+        Output = Net_1071_2 (fanout=1)
+
+    MacroCell: Name=Net_1071_1, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_1
+        );
+        Output = Net_1071_1 (fanout=1)
+
+    MacroCell: Name=Net_1071_0, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_0
+        );
+        Output = Net_1071_0 (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[0]:samples_2\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \EndStopGlitchFilter:genblk1[0]:samples_1\ * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[0]:samples_2\ (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[0]:samples_1\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \EndStopGlitchFilter:genblk1[0]:samples_0\ * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[0]:samples_1\ (fanout=2)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[0]:samples_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_0 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[0]:samples_0\ (fanout=2)
+
+    MacroCell: Name=Net_803_0, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_0 * !\EndStopGlitchFilter:genblk1[0]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[0]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[0]:samples_0\ * Net_803_0
+            + Net_805_0 * \EndStopGlitchFilter:genblk1[0]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[0]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[0]:samples_0\ * !Net_735 * 
+              !Net_803_0
+            + Net_735 * Net_803_0
+        );
+        Output = Net_803_0 (fanout=3)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[1]:samples_2\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[1]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[1]:samples_2\ (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[1]:samples_1\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[1]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[1]:samples_1\ (fanout=2)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[1]:samples_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_1 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[1]:samples_0\ (fanout=2)
+
+    MacroCell: Name=Net_803_1, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_1 * !\EndStopGlitchFilter:genblk1[1]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[1]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[1]:samples_0\ * Net_803_1
+            + Net_805_1 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[1]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[1]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[1]:samples_0\ * !Net_803_1
+            + Net_735 * Net_803_1
+        );
+        Output = Net_803_1 (fanout=3)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[2]:samples_2\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[2]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[2]:samples_2\ (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[2]:samples_1\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[2]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[2]:samples_1\ (fanout=2)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[2]:samples_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_2 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[2]:samples_0\ (fanout=2)
+
+    MacroCell: Name=Net_803_2, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_2 * !\EndStopGlitchFilter:genblk1[2]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[2]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[2]:samples_0\ * Net_803_2
+            + Net_805_2 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[2]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[2]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[2]:samples_0\ * !Net_803_2
+            + Net_735 * Net_803_2
+        );
+        Output = Net_803_2 (fanout=3)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[3]:samples_2\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[3]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[3]:samples_2\ (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[3]:samples_1\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[3]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[3]:samples_1\ (fanout=2)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[3]:samples_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_3 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[3]:samples_0\ (fanout=2)
+
+    MacroCell: Name=Net_803_3, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_3 * !\EndStopGlitchFilter:genblk1[3]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[3]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[3]:samples_0\ * Net_803_3
+            + Net_805_3 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[3]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[3]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[3]:samples_0\ * !Net_803_3
+            + Net_735 * Net_803_3
+        );
+        Output = Net_803_3 (fanout=3)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[4]:samples_2\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[4]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[4]:samples_2\ (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[4]:samples_1\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[4]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[4]:samples_1\ (fanout=2)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[4]:samples_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_4 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[4]:samples_0\ (fanout=2)
+
+    MacroCell: Name=Net_803_4, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_4 * !\EndStopGlitchFilter:genblk1[4]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[4]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[4]:samples_0\ * Net_803_4
+            + Net_805_4 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[4]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[4]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[4]:samples_0\ * !Net_803_4
+            + Net_735 * Net_803_4
+        );
+        Output = Net_803_4 (fanout=3)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[5]:samples_2\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[5]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[5]:samples_2\ (fanout=1)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[5]:samples_1\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[5]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[5]:samples_1\ (fanout=2)
+
+    MacroCell: Name=\EndStopGlitchFilter:genblk1[5]:samples_0\, Mode=(D-Register)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_5 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[5]:samples_0\ (fanout=2)
+
+    MacroCell: Name=Net_803_5, Mode=(T-Register)
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_5 * !\EndStopGlitchFilter:genblk1[5]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[5]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[5]:samples_0\ * Net_803_5
+            + Net_805_5 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[5]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[5]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[5]:samples_0\ * !Net_803_5
+            + Net_735 * Net_803_5
+        );
+        Output = Net_803_5 (fanout=3)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+
+    ------------------------------------------------------------
+    StatusI register listing
+    ------------------------------------------------------------
+
+    statusicell: Name =\EndStopStatus:sts_intr:sts_reg\
+        PORT MAP (
+            clock => Net_595_digital ,
+            status_5 => Net_1071_5 ,
+            status_4 => Net_1071_4 ,
+            status_3 => Net_1071_3 ,
+            status_2 => Net_1071_2 ,
+            status_1 => Net_1071_1 ,
+            status_0 => Net_1071_0 ,
+            interrupt => Net_828 );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "0000000"
+            cy_md_select = "0111111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+
+    ------------------------------------------------------------
+    Control register listing
+    ------------------------------------------------------------
+
+    controlcell: Name =\EndStopCtrl:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \EndStopCtrl:control_7\ ,
+            control_6 => \EndStopCtrl:control_6\ ,
+            control_5 => \EndStopCtrl:control_5\ ,
+            control_4 => \EndStopCtrl:control_4\ ,
+            control_3 => \EndStopCtrl:control_3\ ,
+            control_2 => \EndStopCtrl:control_2\ ,
+            control_1 => Net_1124 ,
+            control_0 => Net_735 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =\ADC_SAR_Seq_1:IRQ\
+        PORT MAP (
+            interrupt => \ADC_SAR_Seq_1:Net_3112\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =EndStopISR
+        PORT MAP (
+            interrupt => Net_828 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    1 :    3 :    4 : 25.00 %
+Interrupts                    :    2 :   30 :   32 :  6.25 %
+IO                            :   18 :   33 :   51 : 35.29 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CapSense                      :    0 :    2 :    2 :  0.00 %
+Die Temp                      :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    2 :    2 :  0.00 %
+Serial Communication (SCB)    :    1 :    3 :    4 : 25.00 %
+DMA Channels                  :    0 :    8 :    8 :  0.00 %
+Timer/Counter/PWM             :    0 :    8 :    8 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :   31 :    1 :   32 : 96.88 %
+  Unique P-terms              :   44 :   20 :   64 : 68.75 %
+  Total P-terms               :   44 :      :      :        
+  Datapath Cells              :    0 :    4 :    4 :  0.00 %
+  Status Cells                :    1 :    3 :    4 : 25.00 %
+    StatusI Registers         :    1 :      :      :        
+  Control Cells               :    1 :    3 :    4 : 25.00 %
+    Control Registers         :    1 :      :      :        
+Comparator/Opamp              :    0 :    4 :    4 :  0.00 %
+LP Comparator                 :    0 :    2 :    2 :  0.00 %
+SAR ADC                       :    1 :    0 :    1 : 100.00 %
+DAC                           :      :      :      :        
+  7-bit IDAC                  :    0 :    2 :    2 :  0.00 %
+  8-bit IDAC                  :    0 :    2 :    2 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.156ms
+Tech Mapping phase: Elapsed time ==> 0s.178ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+<CYPRESSTAG name="FFB & IO Pre Placement">
+<CYPRESSTAG name="Placement" icon="FILE_RPT_PLACEMENT">
+
+Cell                                : Block                              
+=========================================================================
+ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]           
+\ADC_SAR_Seq_1:cy_psoc4_sar\        : SARADC_[FFB(SARADC,0)]             
+\DriverSPI:SCB\                     : SCB_[FFB(SCB,0)]                   
+\DriverSPI:sclk_m(0)\               : [IOP=(1)][IoId=(2)]                
+\DriverSPI:miso_m(0)\               : [IOP=(1)][IoId=(1)]                
+\DriverSPI:mosi_m(0)\               : [IOP=(1)][IoId=(0)]                
+Thermistors(0)                      : [IOP=(2)][IoId=(0)]                
+Thermistors(1)                      : [IOP=(2)][IoId=(1)]                
+\DriverSPI:ss3_m(0)\                : [IOP=(0)][IoId=(0)]                
+\DriverSPI:ss2_m(0)\                : [IOP=(0)][IoId=(1)]                
+\DriverSPI:ss1_m(0)\                : [IOP=(0)][IoId=(2)]                
+\DriverSPI:ss0_m(0)\                : [IOP=(1)][IoId=(3)]                
+EndStops_1(0)                       : [IOP=(0)][IoId=(3)]                
+EndStops_1(1)                       : [IOP=(0)][IoId=(4)]                
+EndStops_1(2)                       : [IOP=(0)][IoId=(5)]                
+EndStops_1(3)                       : [IOP=(0)][IoId=(6)]                
+EndStops_1(4)                       : [IOP=(0)][IoId=(7)]                
+EndStops_1(5)                       : [IOP=(1)][IoId=(4)]                
+TrianmicEnable(0)                   : [IOP=(1)][IoId=(5)]                
+
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Real Analog Placement">
+Elapsed time ==> 0.3048258s
+</CYPRESSTAG>
+Analog Placement phase: Elapsed time ==> 0s.539ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+<CYPRESSTAG name="Analog Routing">
+Route success=True, Iterations=1 Elapsed=0.0248229 secs
+</CYPRESSTAG>
+Analog Routing phase: Elapsed time ==> 0s.026ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+  Net: Net_709 {
+    p2_7
+  }
+  Net: Net_711 {
+    p2_0
+  }
+  Net: \ADC_SAR_Seq_1:Net_1851\ {
+  }
+  Net: \ADC_SAR_Seq_1:Net_3113\ {
+  }
+  Net: \ADC_SAR_Seq_1:mux_bus_minus_0\ {
+  }
+  Net: \ADC_SAR_Seq_1:mux_bus_minus_1\ {
+  }
+  Net: \ADC_SAR_Seq_1:mux_bus_minus_2\ {
+  }
+  Net: \ADC_SAR_Seq_1:mux_bus_minus_3\ {
+  }
+  Net: \ADC_SAR_Seq_1:mux_bus_minus_4\ {
+  }
+  Net: \ADC_SAR_Seq_1:mux_bus_plus_4\ {
+  }
+  Net: \ADC_SAR_Seq_1:muxout_plus\ {
+    PASS0_sarmux_vplus
+  }
+  Net: AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A {
+    PASS0_SARMUX0_sw0
+    PASS0_SARMUX0_sw7
+  }
+  Net: \ADC_SAR_Seq_1:muxout_minus\ {
+    PASS0_sarmux_vminus
+  }
+  Net: AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_B {
+  }
+}
+Map of item to net {
+  p2_7                                             -> Net_709
+  p2_0                                             -> Net_711
+  PASS0_sarmux_vplus                               -> \ADC_SAR_Seq_1:muxout_plus\
+  PASS0_SARMUX0_sw0                                -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_SARMUX0_sw7                                -> AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+  PASS0_sarmux_vminus                              -> \ADC_SAR_Seq_1:muxout_minus\
+}
+Mux Info {
+  Mux: \ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A {
+     Mouth: \ADC_SAR_Seq_1:muxout_plus\
+     Guts:  AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_A
+     IsSingleSwitching: False
+     IsStaticSwitching: False
+     IsAtMostOneSwitch: True
+    Arm: 0 {
+      Net:   Net_711
+      Outer: PASS0_SARMUX0_sw0
+      Inner: __open__
+      Path {
+        PASS0_SARMUX0_sw0
+        p2_0
+      }
+    }
+    Arm: 1 {
+      Net:   Net_709
+      Outer: PASS0_SARMUX0_sw7
+      Inner: __open__
+      Path {
+        PASS0_SARMUX0_sw7
+        p2_7
+      }
+    }
+    Arm: 2 {
+      Net:   Net_711
+      Outer: PASS0_SARMUX0_sw0
+      Inner: __open__
+      Path {
+        PASS0_SARMUX0_sw0
+        p2_0
+      }
+    }
+    Arm: 3 {
+      Net:   Net_709
+      Outer: PASS0_SARMUX0_sw7
+      Inner: __open__
+      Path {
+        PASS0_SARMUX0_sw7
+        p2_7
+      }
+    }
+  }
+  Mux: \ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_B {
+     Mouth: \ADC_SAR_Seq_1:muxout_minus\
+     Guts:  AMuxNet::\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\_CYAMUXSIDE_B
+     IsSingleSwitching: False
+     IsStaticSwitching: False
+     IsAtMostOneSwitch: True
+    Arm: 0 {
+      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Outer: __open__
+      Inner: __open__
+      Path {
+      }
+    }
+    Arm: 1 {
+      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Outer: __open__
+      Inner: __open__
+      Path {
+      }
+    }
+    Arm: 2 {
+      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Outer: __open__
+      Inner: __open__
+      Path {
+      }
+    }
+    Arm: 3 {
+      Net:   \ADC_SAR_Seq_1:Net_1851\
+      Outer: __open__
+      Inner: __open__
+      Path {
+      }
+    }
+  }
+}
+Analog Code Generation phase: Elapsed time ==> 0s.023ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 0.5 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :    8 :    0 :    8 : 100.00%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            7.13
+                   Pterms :            5.50
+               Macrocells :            3.88
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.002ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.011ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          4 :      11.25 :       7.75
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] contents:
+LAB@[UDB=(0,0)][LB=0] #macrocells=4, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_803_3, Mode=(T-Register) @ [UDB=(0,0)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_3 * !\EndStopGlitchFilter:genblk1[3]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[3]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[3]:samples_0\ * Net_803_3
+            + Net_805_3 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[3]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[3]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[3]:samples_0\ * !Net_803_3
+            + Net_735 * Net_803_3
+        );
+        Output = Net_803_3 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[3]:samples_2\, Mode=(D-Register) @ [UDB=(0,0)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[3]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[3]:samples_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[3]:samples_0\, Mode=(D-Register) @ [UDB=(0,0)][LB=0][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_3 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[3]:samples_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_1071_1, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_1
+        );
+        Output = Net_1071_1 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,0)][LB=1] #macrocells=3, #inputs=4, #pterms=3
+{
+    [McSlotId=0]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[2]:samples_1\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[2]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[2]:samples_1\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[2]:samples_2\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[2]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[2]:samples_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[3]:samples_1\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[3]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[3]:samples_1\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+statusicell: Name =\EndStopStatus:sts_intr:sts_reg\
+    PORT MAP (
+        clock => Net_595_digital ,
+        status_5 => Net_1071_5 ,
+        status_4 => Net_1071_4 ,
+        status_3 => Net_1071_3 ,
+        status_2 => Net_1071_2 ,
+        status_1 => Net_1071_1 ,
+        status_0 => Net_1071_0 ,
+        interrupt => Net_828 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "0000000"
+        cy_md_select = "0111111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(0,1)] contents:
+LAB@[UDB=(0,1)][LB=0] #macrocells=4, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_803_4, Mode=(T-Register) @ [UDB=(0,1)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_4 * !\EndStopGlitchFilter:genblk1[4]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[4]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[4]:samples_0\ * Net_803_4
+            + Net_805_4 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[4]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[4]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[4]:samples_0\ * !Net_803_4
+            + Net_735 * Net_803_4
+        );
+        Output = Net_803_4 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[4]:samples_2\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[4]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[4]:samples_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_1071_2, Mode=(Combinatorial) @ [UDB=(0,1)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_2
+        );
+        Output = Net_1071_2 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[4]:samples_0\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_4 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[4]:samples_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,1)][LB=1] #macrocells=4, #inputs=8, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1071_4, Mode=(Combinatorial) @ [UDB=(0,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_4
+        );
+        Output = Net_1071_4 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[2]:samples_0\, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_2 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[2]:samples_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[4]:samples_1\, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[4]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[4]:samples_1\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_803_2, Mode=(T-Register) @ [UDB=(0,1)][LB=1][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_2 * !\EndStopGlitchFilter:genblk1[2]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[2]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[2]:samples_0\ * Net_803_2
+            + Net_805_2 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[2]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[2]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[2]:samples_0\ * !Net_803_2
+            + Net_735 * Net_803_2
+        );
+        Output = Net_803_2 (fanout=3)
+        Properties               : 
+        {
+        }
+}
+
+UDB [UDB=(1,0)] contents:
+LAB@[UDB=(1,0)][LB=0] #macrocells=4, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_803_5, Mode=(T-Register) @ [UDB=(1,0)][LB=0][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_5 * !\EndStopGlitchFilter:genblk1[5]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[5]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[5]:samples_0\ * Net_803_5
+            + Net_805_5 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[5]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[5]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[5]:samples_0\ * !Net_803_5
+            + Net_735 * Net_803_5
+        );
+        Output = Net_803_5 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[1]:samples_1\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[1]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[1]:samples_1\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[5]:samples_1\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[5]:samples_0\
+        );
+        Output = \EndStopGlitchFilter:genblk1[5]:samples_1\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[5]:samples_2\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[5]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[5]:samples_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,0)][LB=1] #macrocells=4, #inputs=7, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1071_3, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_3
+        );
+        Output = Net_1071_3 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[1]:samples_2\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_735 * \EndStopGlitchFilter:genblk1[1]:samples_1\
+        );
+        Output = \EndStopGlitchFilter:genblk1[1]:samples_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[1]:samples_0\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_1 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[1]:samples_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_803_1, Mode=(T-Register) @ [UDB=(1,0)][LB=1][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_1 * !\EndStopGlitchFilter:genblk1[1]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[1]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[1]:samples_0\ * Net_803_1
+            + Net_805_1 * !Net_735 * 
+              \EndStopGlitchFilter:genblk1[1]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[1]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[1]:samples_0\ * !Net_803_1
+            + Net_735 * Net_803_1
+        );
+        Output = Net_803_1 (fanout=3)
+        Properties               : 
+        {
+        }
+}
+
+controlcell: Name =\EndStopCtrl:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \EndStopCtrl:control_7\ ,
+        control_6 => \EndStopCtrl:control_6\ ,
+        control_5 => \EndStopCtrl:control_5\ ,
+        control_4 => \EndStopCtrl:control_4\ ,
+        control_3 => \EndStopCtrl:control_3\ ,
+        control_2 => \EndStopCtrl:control_2\ ,
+        control_1 => Net_1124 ,
+        control_0 => Net_735 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(1,1)] contents:
+LAB@[UDB=(1,1)][LB=0] #macrocells=4, #inputs=12, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1093, Mode=(Combinatorial) @ [UDB=(1,1)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              Net_803_0 * Net_803_1 * Net_803_2 * Net_803_3 * Net_803_4 * 
+              Net_803_5
+            + Net_1124
+        );
+        Output = Net_1093 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[0]:samples_1\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \EndStopGlitchFilter:genblk1[0]:samples_0\ * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[0]:samples_1\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_803_0, Mode=(T-Register) @ [UDB=(1,1)][LB=0][MC=2]
+        Total # of inputs        : 6
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !Net_805_0 * !\EndStopGlitchFilter:genblk1[0]:samples_2\ * 
+              !\EndStopGlitchFilter:genblk1[0]:samples_1\ * 
+              !\EndStopGlitchFilter:genblk1[0]:samples_0\ * Net_803_0
+            + Net_805_0 * \EndStopGlitchFilter:genblk1[0]:samples_2\ * 
+              \EndStopGlitchFilter:genblk1[0]:samples_1\ * 
+              \EndStopGlitchFilter:genblk1[0]:samples_0\ * !Net_735 * 
+              !Net_803_0
+            + Net_735 * Net_803_0
+        );
+        Output = Net_803_0 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[0]:samples_2\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \EndStopGlitchFilter:genblk1[0]:samples_1\ * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[0]:samples_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,1)][LB=1] #macrocells=4, #inputs=5, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1071_5, Mode=(Combinatorial) @ [UDB=(1,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_5
+        );
+        Output = Net_1071_5 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_1071_0, Mode=(Combinatorial) @ [UDB=(1,1)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_803_0
+        );
+        Output = Net_1071_0 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[5]:samples_0\, Mode=(D-Register) @ [UDB=(1,1)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_5 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[5]:samples_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\EndStopGlitchFilter:genblk1[0]:samples_0\, Mode=(D-Register) @ [UDB=(1,1)][LB=1][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_595_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_805_0 * !Net_735
+        );
+        Output = \EndStopGlitchFilter:genblk1[0]:samples_0\ (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+Intr container @ [IntrContainer=(0)]: 
+  Intr@ [IntrContainer=(0)][IntrId=(0)] 
+    interrupt: Name =EndStopISR
+        PORT MAP (
+            interrupt => Net_828 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+  Intr@ [IntrContainer=(0)][IntrId=(16)] 
+    interrupt: Name =\ADC_SAR_Seq_1:IRQ\
+        PORT MAP (
+            interrupt => \ADC_SAR_Seq_1:Net_3112\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = \DriverSPI:ss0_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:ss0_m(0)\__PA ,
+        pin_input => \DriverSPI:select_m_wire_0\ ,
+        pad => \DriverSPI:ss0_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = \DriverSPI:ss1_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:ss1_m(0)\__PA ,
+        pin_input => \DriverSPI:select_m_wire_1\ ,
+        pad => \DriverSPI:ss1_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = \DriverSPI:ss3_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:ss3_m(0)\__PA ,
+        pin_input => \DriverSPI:select_m_wire_3\ ,
+        pad => \DriverSPI:ss3_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = TrianmicEnable(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: SYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: True
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => TrianmicEnable(0)__PA ,
+        pin_input => Net_1093 ,
+        pad => TrianmicEnable(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = \DriverSPI:mosi_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:mosi_m(0)\__PA ,
+        pin_input => \DriverSPI:mosi_m_wire\ ,
+        pad => \DriverSPI:mosi_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = \DriverSPI:miso_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:miso_m(0)\__PA ,
+        fb => \DriverSPI:miso_m_wire\ ,
+        pad => \DriverSPI:miso_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = \DriverSPI:sclk_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:sclk_m(0)\__PA ,
+        pin_input => \DriverSPI:sclk_m_wire\ ,
+        pad => \DriverSPI:sclk_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = \DriverSPI:ss2_m(0)\
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => \DriverSPI:ss2_m(0)\__PA ,
+        pin_input => \DriverSPI:select_m_wire_2\ ,
+        pad => \DriverSPI:ss2_m(0)_PAD\ );
+    Properties:
+    {
+    }
+
+Port 2 generates interrupt for logical port:
+    logicalport: Name =EndStops_1
+        PORT MAP (
+            in_clock_en => tmpOE__EndStops_1_net_5 ,
+            in_reset => zero ,
+            out_clock_en => tmpOE__EndStops_1_net_5 ,
+            out_reset => zero );
+        Properties:
+        {
+            drive_mode = "010010010010010010"
+            ibuf_enabled = "111111"
+            id = "05d4be26-86e3-46e1-8b31-d46096283479"
+            init_dr_st = "111111"
+            input_buffer_sel = "000000000000"
+            input_clk_en = 0
+            input_sync = "000000"
+            input_sync_mode = "000000"
+            intr_mode = "111111111111"
+            invert_in_clock = 0
+            invert_in_clock_en = 0
+            invert_in_reset = 0
+            invert_out_clock = 0
+            invert_out_clock_en = 0
+            invert_out_reset = 0
+            io_voltage = ",,,,,"
+            layout_mode = "CONTIGUOUS"
+            oe_conn = "000000"
+            oe_reset = 0
+            oe_sync = "000000"
+            output_clk_en = 0
+            output_clock_mode = "000000"
+            output_conn = "000000"
+            output_mode = "000000"
+            output_reset = 0
+            output_sync = "000000"
+            ovt_hyst_trim = "000000"
+            ovt_needed = "000000"
+            ovt_slew_control = "000000000000"
+            pa_in_clock = -1
+            pa_in_clock_en = -1
+            pa_in_reset = -1
+            pa_out_clock = -1
+            pa_out_clock_en = -1
+            pa_out_reset = -1
+            pin_aliases = ",,,,,"
+            pin_mode = "IIIIII"
+            por_state = 4
+            port_alias_group = ""
+            port_alias_required = 0
+            sio_group_cnt = 0
+            sio_hifreq = "00000000"
+            sio_hyst = "111111"
+            sio_ibuf = "00000000"
+            sio_info = "000000000000"
+            sio_obuf = "00000000"
+            sio_refsel = "00000000"
+            sio_vohsel = "00000000"
+            sio_vtrip = "00000000"
+            slew_rate = "000000"
+            spanning = 0
+            sw_only = 0
+            use_annotation = "000000"
+            vtrip = "000000000000"
+            width = 6
+        }
+    and contains the following IO cells:
+[IoId=0]: 
+Pin : Name = Thermistors(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: ANALOG
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Thermistors(0)__PA ,
+        analog_term => Net_711 ,
+        pad => Thermistors(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = EndStops_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: True
+        Interrupt mode: ON_CHANGE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => EndStops_1(0)__PA ,
+        fb => Net_805_0 ,
+        pad => EndStops_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = EndStops_1(1)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: True
+        Interrupt mode: ON_CHANGE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => EndStops_1(1)__PA ,
+        fb => Net_805_1 ,
+        pad => EndStops_1(1)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=3]: 
+Pin : Name = EndStops_1(2)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: True
+        Interrupt mode: ON_CHANGE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => EndStops_1(2)__PA ,
+        fb => Net_805_2 ,
+        pad => EndStops_1(2)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=4]: 
+Pin : Name = EndStops_1(3)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: True
+        Interrupt mode: ON_CHANGE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => EndStops_1(3)__PA ,
+        fb => Net_805_3 ,
+        pad => EndStops_1(3)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=5]: 
+Pin : Name = EndStops_1(4)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: True
+        Interrupt mode: ON_CHANGE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => EndStops_1(4)__PA ,
+        fb => Net_805_4 ,
+        pad => EndStops_1(4)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = EndStops_1(5)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: True
+        Interrupt mode: ON_CHANGE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: False
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => EndStops_1(5)__PA ,
+        fb => Net_805_5 ,
+        pad => EndStops_1(5)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = Thermistors(1)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: ANALOG
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Thermistors(1)__PA ,
+        analog_term => Net_709 ,
+        pad => Thermistors(1)_PAD );
+    Properties:
+    {
+    }
+
+Port 3 contains the following IO cells:
+Port 4 contains the following IO cells:
+Port 5 contains the following IO cells:
+Port 6 contains the following IO cells:
+Port 7 contains the following IO cells:
+ARM group 0: empty
+CAN group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    m0s8clockblockcell: Name =ClockBlock
+        PORT MAP (
+            hfclk => ClockBlock_HFClk ,
+            imo => ClockBlock_IMO ,
+            ext => ClockBlock_ExtClk ,
+            sysclk => ClockBlock_SysClk ,
+            ilo => ClockBlock_ILO ,
+            lfclk => ClockBlock_LFClk ,
+            wco => ClockBlock_WCO ,
+            dsi_in_0 => ClockBlock_Routed1 ,
+            ff_div_2 => \DriverSPI:Net_847_ff2\ ,
+            ff_div_10 => \ADC_SAR_Seq_1:Net_1845_ff10\ ,
+            udb_div_0 => dclk_to_genclk );
+        Properties:
+        {
+        }
+LCD group 0: empty
+PICU group 0: empty
+LPCOMP group 0: empty
+SCB group 0: 
+    SCB Block @ F(SCB,0): 
+    m0s8scbcell: Name =\DriverSPI:SCB\
+        PORT MAP (
+            clock => \DriverSPI:Net_847_ff2\ ,
+            interrupt => Net_497 ,
+            uart_tx => \DriverSPI:tx_wire\ ,
+            uart_rts => \DriverSPI:rts_wire\ ,
+            mosi_m => \DriverSPI:mosi_m_wire\ ,
+            miso_m => \DriverSPI:miso_m_wire\ ,
+            select_m_3 => \DriverSPI:select_m_wire_3\ ,
+            select_m_2 => \DriverSPI:select_m_wire_2\ ,
+            select_m_1 => \DriverSPI:select_m_wire_1\ ,
+            select_m_0 => \DriverSPI:select_m_wire_0\ ,
+            sclk_m => \DriverSPI:sclk_m_wire\ ,
+            miso_s => \DriverSPI:miso_s_wire\ ,
+            tr_tx_req => Net_500 ,
+            tr_rx_req => Net_499 );
+        Properties:
+        {
+            cy_registers = ""
+            scb_mode = 1
+        }
+CSD group 0: empty
+CSIDAC8 group 0: empty
+CSIDAC7 group 0: empty
+TCPWM group 0: empty
+OA group 0: empty
+TEMP group 0: empty
+SARADC group 0: 
+    SAR ADC @ F(SARADC,0): 
+    p4sarcell: Name =\ADC_SAR_Seq_1:cy_psoc4_sar\
+        PORT MAP (
+            vplus => \ADC_SAR_Seq_1:muxout_plus\ ,
+            vminus => \ADC_SAR_Seq_1:muxout_minus\ ,
+            vref => \ADC_SAR_Seq_1:Net_3113\ ,
+            ext_vref => \ADC_SAR_Seq_1:Net_3225\ ,
+            clock => \ADC_SAR_Seq_1:Net_1845_ff10\ ,
+            sample_done => Net_701 ,
+            chan_id_valid => \ADC_SAR_Seq_1:Net_3108\ ,
+            chan_id_3 => \ADC_SAR_Seq_1:Net_3109_3\ ,
+            chan_id_2 => \ADC_SAR_Seq_1:Net_3109_2\ ,
+            chan_id_1 => \ADC_SAR_Seq_1:Net_3109_1\ ,
+            chan_id_0 => \ADC_SAR_Seq_1:Net_3109_0\ ,
+            data_valid => \ADC_SAR_Seq_1:Net_3110\ ,
+            data_11 => \ADC_SAR_Seq_1:Net_3111_11\ ,
+            data_10 => \ADC_SAR_Seq_1:Net_3111_10\ ,
+            data_9 => \ADC_SAR_Seq_1:Net_3111_9\ ,
+            data_8 => \ADC_SAR_Seq_1:Net_3111_8\ ,
+            data_7 => \ADC_SAR_Seq_1:Net_3111_7\ ,
+            data_6 => \ADC_SAR_Seq_1:Net_3111_6\ ,
+            data_5 => \ADC_SAR_Seq_1:Net_3111_5\ ,
+            data_4 => \ADC_SAR_Seq_1:Net_3111_4\ ,
+            data_3 => \ADC_SAR_Seq_1:Net_3111_3\ ,
+            data_2 => \ADC_SAR_Seq_1:Net_3111_2\ ,
+            data_1 => \ADC_SAR_Seq_1:Net_3111_1\ ,
+            data_0 => \ADC_SAR_Seq_1:Net_3111_0\ ,
+            tr_sar_out => Net_702 ,
+            irq => \ADC_SAR_Seq_1:Net_3112\ );
+        Properties:
+        {
+            cy_registers = ""
+        }
+CLK_GEN group 0: 
+    M0S8 Clock Gen Block @ F(CLK_GEN,0): 
+    m0s8clockgenblockcell: Name =ClockGenBlock
+        PORT MAP (
+            gen_clk_out_0 => Net_595_digital ,
+            gen_clk_in_0 => dclk_to_genclk );
+        Properties:
+        {
+        }
+LPCOMPBLOCK group 0: empty
+PASSBLOCK group 0: empty
+WCO group 0: empty
+SRSS group 0: empty
+CPUSS group 0: empty
+IOSS group 0: empty
+EXCO group 0: empty
+
+Blocks not positioned by the digital component placer:
+    SAR Muxes @ <No Location>: 
+    p4sarmuxcell: Name =\ADC_SAR_Seq_1:cy_psoc4_sarmux_8\
+        PORT MAP (
+            muxin_plus_3 => Net_709 ,
+            muxin_plus_2 => Net_711 ,
+            muxin_plus_1 => Net_709 ,
+            muxin_plus_0 => Net_711 ,
+            muxin_minus_3 => \ADC_SAR_Seq_1:mux_bus_minus_3\ ,
+            muxin_minus_2 => \ADC_SAR_Seq_1:mux_bus_minus_2\ ,
+            muxin_minus_1 => \ADC_SAR_Seq_1:mux_bus_minus_1\ ,
+            muxin_minus_0 => \ADC_SAR_Seq_1:mux_bus_minus_0\ ,
+            cmn_neg_0 => \ADC_SAR_Seq_1:Net_1851\ ,
+            vout_plus => \ADC_SAR_Seq_1:muxout_plus\ ,
+            vout_minus => \ADC_SAR_Seq_1:muxout_minus\ );
+        Properties:
+        {
+            cmn_neg_width = 1
+            cy_registers = ""
+            input_mode = "0000"
+            muxin_width = 4
+        }
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |                       | 
+Port | Pin | Fixed |      Type |       Drive Mode |                  Name | Connections
+-----+-----+-------+-----------+------------------+-----------------------+--------------------------------
+   0 |   0 |       |      NONE |         CMOS_OUT |  \DriverSPI:ss0_m(0)\ | In(\DriverSPI:select_m_wire_0\)
+     |   1 |       |      NONE |         CMOS_OUT |  \DriverSPI:ss1_m(0)\ | In(\DriverSPI:select_m_wire_1\)
+     |   2 |       |      NONE |         CMOS_OUT |  \DriverSPI:ss3_m(0)\ | In(\DriverSPI:select_m_wire_3\)
+     |   3 |       |      NONE |         CMOS_OUT |     TrianmicEnable(0) | In(Net_1093)
+-----+-----+-------+-----------+------------------+-----------------------+--------------------------------
+   1 |   0 |       |      NONE |         CMOS_OUT | \DriverSPI:mosi_m(0)\ | In(\DriverSPI:mosi_m_wire\)
+     |   1 |       |      NONE |     HI_Z_DIGITAL | \DriverSPI:miso_m(0)\ | FB(\DriverSPI:miso_m_wire\)
+     |   2 |       |      NONE |         CMOS_OUT | \DriverSPI:sclk_m(0)\ | In(\DriverSPI:sclk_m_wire\)
+     |   3 |       |      NONE |         CMOS_OUT |  \DriverSPI:ss2_m(0)\ | In(\DriverSPI:select_m_wire_2\)
+-----+-----+-------+-----------+------------------+-----------------------+--------------------------------
+   2 |   0 |       |      NONE |      HI_Z_ANALOG |        Thermistors(0) | Analog(Net_711)
+     |   1 |       | ON_CHANGE |      RES_PULL_UP |         EndStops_1(0) | FB(Net_805_0)
+     |   2 |       | ON_CHANGE |      RES_PULL_UP |         EndStops_1(1) | FB(Net_805_1)
+     |   3 |       | ON_CHANGE |      RES_PULL_UP |         EndStops_1(2) | FB(Net_805_2)
+     |   4 |       | ON_CHANGE |      RES_PULL_UP |         EndStops_1(3) | FB(Net_805_3)
+     |   5 |       | ON_CHANGE |      RES_PULL_UP |         EndStops_1(4) | FB(Net_805_4)
+     |   6 |       | ON_CHANGE |      RES_PULL_UP |         EndStops_1(5) | FB(Net_805_5)
+     |   7 |       |      NONE |      HI_Z_ANALOG |        Thermistors(1) | Analog(Net_709)
+-----------------------------------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.103ms
+Digital Placement phase: Elapsed time ==> 0s.748ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+"C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc4/4/route_arch-rrg.cydata" --vh2-path "10dollarboard_r.vh2" --pcf-path "10dollarboard.pco" --des-name "10dollarboard" --dsf-path "10dollarboard.dsf" --sdc-path "10dollarboard.sdc" --lib-path "10dollarboard_r.lib"
+Routing successful.
+Digital Routing phase: Elapsed time ==> 0s.833ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.192ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.017ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in 10dollarboard_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.259ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.186ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 3s.063ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 3s.064ms
+API generation phase: Elapsed time ==> 1s.675ms
+Dependency generation phase: Elapsed time ==> 0s.016ms
+Cleanup phase: Elapsed time ==> 0s.000ms

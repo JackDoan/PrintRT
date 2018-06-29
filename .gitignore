@@ -1,0 +1,7 @@
+*.jadoan1
+*.log
+codegentemp
+*.o
+*.lst
+Debug
+

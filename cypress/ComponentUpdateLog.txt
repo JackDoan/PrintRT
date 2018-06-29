@@ -1,0 +1,9 @@
+Last Modified Date & Time: 06/28/2018 14:04:59
+
+DMA_SPI_PSoC401: DMA_SPI_PSoC401.cydwr
+	cy_boot [v5.60] to [v5.70]
+
+DMA_SPI_PSoC401: TopDesign.cysch
+	SPIM [v3.20] to [v4.0]
+
+
